@@ -1,0 +1,20 @@
+% Step 07 statistical validation addendum
+\section{Statistical Validation of Trial-Level SSVEP Selectivity}
+
+Trial-level exact-frequency selectivity was evaluated as posterior target-frequency SNR minus posterior non-target-frequency SNR. One-sided Wilcoxon signed-rank tests and exact sign tests were used to test whether selectivity was greater than zero.
+
+\begin{table}[htbp]
+\centering
+\caption{Trial-level exact-frequency selectivity statistics.}
+\begin{tabular}{lrrrrr}
+\hline
+Condition & Trials & Positive & Mean (dB) & Median (dB) & Wilcoxon $p$ \\
+\hline
+9 & 19 & 18 & 5.82 & 6.50 & 1.34e-05 \
+14 & 20 & 16 & 4.64 & 5.29 & 0.0002 \
+overall & 39 & 34 & 5.22 & 5.93 & 1.58e-08 \
+\hline
+\end{tabular}
+\end{table}
+
+CCA classification was also tested against chance using exact one-sided binomial tests. The overall accuracy was 37/40 trials (92.5\%), supporting reliable discrimination between the 9-Hz and 14-Hz stimulation conditions.

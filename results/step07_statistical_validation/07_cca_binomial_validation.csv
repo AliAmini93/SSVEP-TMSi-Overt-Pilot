@@ -1,0 +1,4 @@
+scope,correct,total,accuracy,binomial_p_vs_50_percent
+overall CCA,37,40,0.925,9.732502803672105e-09
+9 Hz CCA,20,20,1.0,9.5367431640625e-07
+14 Hz CCA,17,20,0.85,0.0012884140014648438
