@@ -1,0 +1,15 @@
+*.Poly5
+*.poly5
+*.fif
+*.fif.gz
+*.edf
+*.bdf
+*.gdf
+*.xdf
+*.avi
+*.mp4
+*.wav
+EEG Recorded data/
+raw_data/
+Raw_Data/
+TMSiPythonInterface/
